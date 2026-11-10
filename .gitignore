@@ -1,0 +1,110 @@
+
+# ============================================================
+# Embedded HIL Automation - Public Repository
+# Python | Robot Framework | Zephyr RTOS | Multi-platform HIL
+# ============================================================
+
+# ------------------------------------------------------------
+# Python: caches, virtual environments, tooling
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.python-version
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+dist/
+
+# ------------------------------------------------------------
+# Robot Framework: generated results and reports
+# ------------------------------------------------------------
+results/
+output.xml
+log.html
+report.html
+xunit.xml
+
+# ------------------------------------------------------------
+# Zephyr / Nordic NCS: generated firmware builds
+# ------------------------------------------------------------
+build/
+build-*/
+firmware/**/build/
+firmware/**/build-*/
+zephyr/.config
+zephyr/zephyr.dts
+zephyr/edt.pickle
+
+# ------------------------------------------------------------
+# IDE: developer-specific configuration
+# ------------------------------------------------------------
+.vscode/settings.json
+.vscode/settings.local.json
+.vscode/launch.json
+.vscode/tasks.local.json
+.vscode/.nrfconnect/
+*.code-workspace
+.idea/
+
+# ------------------------------------------------------------
+# West / Zephyr workspace metadata
+# ------------------------------------------------------------
+.west/
+
+# ------------------------------------------------------------
+# Environment variables and local secrets
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Private keys, certificates and keystores
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+
+# ------------------------------------------------------------
+# Logs, temporary files and editor backups
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+# ------------------------------------------------------------
+# Operating system generated files
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Intentionally retained in Git
+# ------------------------------------------------------------
+# README.md
+# LICENSE
+# requirements.txt
+# .github/workflows/
+# .vscode/extensions.json (if reviewed and portable)
+# firmware source files
+# tests/
+# scripts/
+# docs/
+# configuration and board profiles

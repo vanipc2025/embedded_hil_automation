@@ -1,0 +1,20 @@
+{
+  "nrf52840dk": {
+    "description": "Nordic nRF52840 DK; first physically validated target",
+    "sim_led_count": 4,
+    "sim_button_count": 4,
+    "sim_features": ["gpio", "buttons", "ble"]
+  },
+  "nrf54l15dk": {
+    "description": "Nordic nRF54L15 DK; future hardware validation",
+    "sim_led_count": 2,
+    "sim_button_count": 2,
+    "sim_features": ["gpio", "buttons", "ble"]
+  },
+  "silabs_bg22": {
+    "description": "Silicon Labs EFR32BG22; placeholder until SDK adapter is implemented",
+    "sim_led_count": 1,
+    "sim_button_count": 1,
+    "sim_features": ["gpio", "buttons", "ble"]
+  }
+}
